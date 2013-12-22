@@ -1,0 +1,22 @@
+{
+    "name": "luknei/gallery",
+    "description": "Simple gallery extension",
+    "authors": [
+        {
+            "name": "luknei",
+            "email": "l.neicelis@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "imagine/imagine": "~0.5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Luknei\\Gallery": "src/Luknei/Gallery",
+            "Luknei\\Breadcrumbs": "src/Luknei/Breadcrumbs"
+        }
+    },
+    "minimum-stability": "dev"
+}

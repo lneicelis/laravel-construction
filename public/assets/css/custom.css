@@ -1,0 +1,130 @@
+.med-photo-thumb{
+    width: 200px;
+    height: 200px;
+}
+
+.small-photo-thumb{
+    width: 100px;
+    height: 100px;
+    z-index: 1000;
+}
+li.active-result{
+    color: #000000;
+}
+
+.modal-crop-form {
+    margin-right: auto;
+    margin-left: auto;
+    width: 850px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.crop-photo{
+    display: block;
+    margin: 0 auto;
+}
+
+.jcrop-holder{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loader-container{
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    cursor: progress;
+
+}
+.loader-curtain{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.4;
+}
+.loader{
+    position: fixed;
+    top:45%;
+    left:45%;
+    opacity: 1;
+}
+.bigger-500{
+    font-size: 500%;
+}
+
+.photo-tag-container > .popover{
+    width:200px;
+    margin-left:-100px;
+    cursor: default;
+}
+.photo-info-container{
+    position: absolute!important;
+    top: 0px;
+    right: 0px;
+    width: 275px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgb(245, 245, 245);
+}
+.photo-info{
+    margin: 5px 5px;
+    padding-right: 10px;
+}
+.photo-info-img{
+    float: left;
+    padding: 2px;
+    border-radius: 100%;
+    border: 1px solid rgb(170, 170, 170);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    max-width: none;
+    width: 48px;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+.photo-info-user{
+    float: left;
+    padding:  5px 0 0 10px;
+}
+.photo-description{
+    float: left;
+    padding: 0px 5px;
+    width: 250px;
+    overflow: hidden;
+}
+.photo-info-date{
+     float: left;
+     padding:  0px 10px;
+ }
+.photo-likes{
+    padding: 0px 10px;
+}
+.photo-comments{
+    margin: 0px;
+    padding-right: 5px;
+}
+.photo-tag-container-wrapper{
+    height: 640px;
+    width: 640px;
+    text-align: center;
+    line-height: 530px;
+}
+.album-likes{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dataTables_wrapper > .row:after {
+    clear: inherit;
+}
